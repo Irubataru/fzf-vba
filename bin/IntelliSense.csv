@@ -1,0 +1,6 @@
+﻿FunctionInfo,1.0,,,,,,,,,,,
+Fzf,Returns the value or values after a fuzzy search ordered by best to worst match.,,Value,A value or a range of values to be searched with the fuzzy algorithm.,Pattern,The fuzzy search pattern.,OnlyTopN,"Only return the top N results, if -1 return all results. Default = 1.",ScoreThreshold,"What score the match must be higher than to be included, 0 means that all matches are included, while -1 means that all results are included regardless of whether it is a match or not. Default = 0.",TransposeResult,"Multiple results are returned as a column, if transpose return as row instead."
+FzfScore,Returns the score of a fuzzy match on a value. 0 means no match.,,Value,Value to match.,Pattern,The fuzzy search pattern.,,,,,,
+FzfStartIndex,Returns the index of the first character used in the fuzzy match and score calculation.,,Value,Value to match.,Pattern,The fuzzy search pattern.,,,,,,
+FzfEndIndex,Returns the index of the last character used in the fuzzy match and score calculation.,,Value,Value to match.,Pattern,The fuzzy search pattern.,,,,,,
+FzfNormalize,Returns the normalized string after latin script letter normalizartion.,,Value,String to normalize.,,,,,,,,

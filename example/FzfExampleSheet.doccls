@@ -1,0 +1,5 @@
+'@Folder("example")
+
+Private Sub Worksheet_Change(ByVal Target As Range)
+    FzfExample.RefreshOnChange Target
+End Sub
