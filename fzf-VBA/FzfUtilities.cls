@@ -202,7 +202,7 @@ Private Sub MergeSort_TopDownMerge( _
         NextFromLower = i < IndexMiddle
         If NextFromLower Then
             If j <= IndexEnd Then
-                NextFromLower = Items(Indices(j)).Score < Items(Indices(i)).Score
+                NextFromLower = Items(Indices(j)).Score <= Items(Indices(i)).Score
             End If
         End If
     
